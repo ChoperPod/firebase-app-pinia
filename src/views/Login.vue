@@ -22,7 +22,7 @@ const handleSubmit = async() => {
         <form @submit.prevent="handleSubmit">
             <input type="email" placeholder="Ingrese email" v-model.trim="email" class="me-2" />
             <input type="password" placeholder="Ingrese contraseña" v-model.trim="password" class="me-2">
-            <button type="submit" class="btn btn-success" :disabled="userStore.loadingUser">Iniciar sesion</button>
+            <button type="submit" class="btn btn-success" :disabled="userStore.loadingUser">Iniciar sesion boludo</button>
         </form>
     </div>
 </template>
